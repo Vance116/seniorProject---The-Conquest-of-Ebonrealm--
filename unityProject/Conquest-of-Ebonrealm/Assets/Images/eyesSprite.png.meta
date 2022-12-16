@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c5f1adeea3270a47b5766a02d34efe4
+guid: e5bc9624662e74247884260c12da758f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: piskelSpritesheet_0
+      name: eyesSprite_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -119,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0456adf188c774249884a40a91b616c9
-      internalID: -2099368780
+      spriteID: 0eeb59ba10114b34486e2c436aa041e5
+      internalID: 2094261235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: piskelSpritesheet_1
+      name: eyesSprite_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -140,8 +140,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f7c1681f5c99a744ab8c16b76c2b0db
-      internalID: 192010171
+      spriteID: 7e10ec55f4129f14d99207fabeb9ab41
+      internalID: -12516274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyesSprite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2afb75c0f06db745a477b10ecdd47ab
+      internalID: -1323898610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyesSprite_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3df7630228e31346b5b80d5d1275466
+      internalID: -1570777613
       vertices: []
       indices: 
       edges: []
@@ -157,18 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      piskelSpritesheet_11: 1567457291
-      piskelSpritesheet_0: -2099368780
-      piskelSpritesheet_1: 192010171
-      piskelSpritesheet_5: -1921106277
-      piskelSpritesheet_4: 1504142213
-      piskelSpritesheet_7: -1152034919
-      piskelSpritesheet_2: 963063484
-      piskelSpritesheet_3: 1530795952
-      piskelSpritesheet_8: -123235634
-      piskelSpritesheet_9: 1710111085
-      piskelSpritesheet_10: 835177566
-      piskelSpritesheet_6: -24125143
+      eyesSprite_3: -1570777613
+      eyesSprite_0: 2094261235
+      eyesSprite_2: -1323898610
+      eyesSprite_1: -12516274
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
