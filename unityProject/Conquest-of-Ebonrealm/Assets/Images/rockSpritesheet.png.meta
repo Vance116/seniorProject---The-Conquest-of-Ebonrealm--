@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c5f1adeea3270a47b5766a02d34efe4
+guid: 607c5fd2aa931ce47b9722bb26d7a886
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: piskelSpritesheet_0
+      name: rockSpritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -119,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0456adf188c774249884a40a91b616c9
-      internalID: -2099368780
+      spriteID: fa3e5ccc1c5c5e548ae0975b8cb3a4ce
+      internalID: -844769886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: piskelSpritesheet_1
+      name: rockSpritesheet_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -140,8 +140,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f7c1681f5c99a744ab8c16b76c2b0db
-      internalID: 192010171
+      spriteID: 174374c1d02cec8488c77a24b15e4f32
+      internalID: -605128061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadcbe9db4a68104c8df217596d0cd00
+      internalID: -99134484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rockSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a97234fef10274f8159647240d1915
+      internalID: -1985619341
       vertices: []
       indices: 
       edges: []
@@ -157,18 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      piskelSpritesheet_11: 1567457291
-      piskelSpritesheet_0: -2099368780
-      piskelSpritesheet_1: 192010171
-      piskelSpritesheet_5: -1921106277
-      piskelSpritesheet_4: 1504142213
-      piskelSpritesheet_7: -1152034919
-      piskelSpritesheet_2: 963063484
-      piskelSpritesheet_3: 1530795952
-      piskelSpritesheet_8: -123235634
-      piskelSpritesheet_9: 1710111085
-      piskelSpritesheet_10: 835177566
-      piskelSpritesheet_6: -24125143
+      rockSpritesheet_0: -844769886
+      rockSpritesheet_1: -605128061
+      rockSpritesheet_2: -99134484
+      rockSpritesheet_3: -1985619341
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
