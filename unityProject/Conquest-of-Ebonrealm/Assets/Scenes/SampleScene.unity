@@ -788,6 +788,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  collisionOffset: 0.05
 --- !u!212 &560488075
 SpriteRenderer:
   m_ObjectHideFlags: 0

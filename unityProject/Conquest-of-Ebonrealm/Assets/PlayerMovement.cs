@@ -8,11 +8,12 @@ public class PlayerMovement : MonoBehaviour
     
     public float moveSpeed = 5f;
     public ContactFilter2D movementFilter;
+    public float collisionOffset = 0.05f;
     
     private Vector2 movement;
     private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     private Rigidbody2D rb;
-    // !!!! Needs collisionOffset !!!!
+    
 
         // Start is called before the first frame update
     public void Start()
@@ -49,11 +50,11 @@ public class PlayerMovement : MonoBehaviour
     // Checks if player is able to move.
     public bool MovePlayer(Vector2 direction)
     {
-        int count = rb.Cast(direction, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime);
+        int count = rb.Cast(direction, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime + collisionOffset);
 
         if (count == 0)
         {
-            Vector2 moveVector = direction * moveSpeed * Time.fixedDeltaTime;
+            Vector2 moveVector = (direction * moveSpeed * Time.fixedDeltaTime).normalized;
 
             rb.MovePosition(rb.position + moveVector);
             return true;
