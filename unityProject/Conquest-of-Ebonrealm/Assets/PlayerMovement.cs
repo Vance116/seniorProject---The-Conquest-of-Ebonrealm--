@@ -54,7 +54,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (count == 0)
         {
-            Vector2 moveVector = (direction * moveSpeed * Time.fixedDeltaTime).normalized;
+            direction = Vector2.ClampMagnitude(direction, 1);
+            Vector2 moveVector = (direction * moveSpeed * Time.fixedDeltaTime);
+            
 
             rb.MovePosition(rb.position + moveVector);
             return true;
