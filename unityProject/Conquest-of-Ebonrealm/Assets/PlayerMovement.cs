@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     
     public float moveSpeed = 5f;
     public ContactFilter2D movementFilter;
-    public float collisionOffset = 0.05f;
     
     private Vector2 movement;
     private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
@@ -50,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
     // Checks if player is able to move.
     public bool MovePlayer(Vector2 direction)
     {
-        int count = rb.Cast(direction, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime + collisionOffset);
+        int count = rb.Cast(direction, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime );
 
         if (count == 0)
         {
