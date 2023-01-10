@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 607c5fd2aa931ce47b9722bb26d7a886
+guid: 78fbc699e46c9414fb113e8cf18d917c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rockSpritesheet_0
+      name: door_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,35 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa3e5ccc1c5c5e548ae0975b8cb3a4ce
-      internalID: -844769886
+      spriteID: d93dd7a28645f0d43827c534bd8f05df
+      internalID: -1641456995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rockSpritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 174374c1d02cec8488c77a24b15e4f32
-      internalID: -605128061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rockSpritesheet_2
+      name: door_1
       rect:
         serializedVersion: 2
         x: 0
@@ -173,29 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aadcbe9db4a68104c8df217596d0cd00
-      internalID: -99134484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rockSpritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14a97234fef10274f8159647240d1915
-      internalID: -1985619341
+      spriteID: 85e0e6be71ae20c4291a0fe9f4ff1615
+      internalID: -2004234190
       vertices: []
       indices: 
       edges: []
@@ -211,10 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      rockSpritesheet_0: -844769886
-      rockSpritesheet_1: -605128061
-      rockSpritesheet_2: -99134484
-      rockSpritesheet_3: -1985619341
+      door_1: -2004234190
+      door_0: -1641456995
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
