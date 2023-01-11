@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,14 +125,35 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b207a8e1d76a32b48b5efca53299e7cc
+      spriteID: 8594d55574409104ba408ca1f5ec4ec1
       internalID: 248057545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicTilemap 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cac4d3f720d1f479f414f19cb6078b
+      internalID: -972641843
       vertices: []
       indices: 
       edges: []
@@ -139,14 +172,14 @@ TextureImporter:
       basicTilemap 1_8: 248057545
       basicTilemap 1_3: 1121800903
       basicTilemap 1_4: 148029071
-      basicTilemap 1_10: -409842456
+      basicTilemap 1_10: -1492904858
       basicTilemap 1_9: -972641843
       basicTilemap 1_0: 2000696347
-      basicTilemap 1_7: -697403560
+      basicTilemap 1_7: 1385462928
       basicTilemap 1_1: -248201320
       basicTilemap 1_2: 1927398411
       basicTilemap 1_5: -1668033459
-      basicTilemap 1_6: -948192879
+      basicTilemap 1_6: 1018856407
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

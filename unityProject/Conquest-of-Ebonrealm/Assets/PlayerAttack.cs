@@ -8,19 +8,19 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
         // Different directions for attacking to call the Attack method with different arguments being called
-        if(Input.GetKeyDown(KeyCode.Left)){
+        if(Input.GetKeyDown(KeyCode.LeftArrow)){
             Attack("left");
         }
 
-        if(Input.GetKeyDown(KeyCode.Up)){
+        if(Input.GetKeyDown(KeyCode.UpArrow)){
             Attack("up");
         }
 
-        if(Input.GetKeyDown(KeyCode.Right)){
+        if(Input.GetKeyDown(KeyCode.RightArrow)){
             Attack("right");
         }
 
-        if(Input.GetKeyDown(KeyCode.Down)){
+        if(Input.GetKeyDown(KeyCode.DownArrow)){
             Attack("down");
         }
     }

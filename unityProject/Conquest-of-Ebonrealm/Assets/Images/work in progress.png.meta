@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e5bc9624662e74247884260c12da758f
+guid: c8073dc1686cb1e44ab1e90a4d1d6286
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,7 +117,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: eyesSprite_0
+      name: work in progress_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ed2e6aac91634479ceb67c2f349544
+      internalID: -1487935611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: work in progress_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021453e979e46a942b32754d92269c6c
+      internalID: -1403268596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: work in progress_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4dd99578810504fbe3aa899b894c7f
+      internalID: -1216488206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: work in progress_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999e2ebd3a635ff4f846f019cd894edb
+      internalID: -1613105167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: work in progress_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66135336310355548bd66b303033feef
+      internalID: -222715858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: work in progress_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2f832b189910b41abb3e1e6ff31993
+      internalID: 1346487061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: work in progress_6
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eeb59ba10114b34486e2c436aa041e5
-      internalID: 2094261235
+      spriteID: 40a1478aa26954c42833e3ea6f6c9124
+      internalID: -843712574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyesSprite_1
+      name: work in progress_7
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +278,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e10ec55f4129f14d99207fabeb9ab41
-      internalID: -12516274
+      spriteID: 856aafca0fec00e46ac36ef89d43b3a9
+      internalID: 459940399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyesSprite_2
+      name: work in progress_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a0f3b02cba7f4459025dc2a459a23d
+      internalID: -1409089027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: work in progress_9
       rect:
         serializedVersion: 2
         x: 0
@@ -173,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2afb75c0f06db745a477b10ecdd47ab
-      internalID: -1323898610
+      spriteID: e52059681165ee041a1b677b043ac9a7
+      internalID: -1106163966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eyesSprite_3
+      name: work in progress_10
       rect:
         serializedVersion: 2
         x: 64
@@ -194,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3df7630228e31346b5b80d5d1275466
-      internalID: -1570777613
+      spriteID: 1d94beda75cf9ba458a837c6138840dd
+      internalID: 2139970346
       vertices: []
       indices: 
       edges: []
@@ -211,10 +358,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      eyesSprite_3: -1570777613
-      eyesSprite_0: 2094261235
-      eyesSprite_2: -1323898610
-      eyesSprite_1: -12516274
+      work in progress_4: -222715858
+      work in progress_1: -1403268596
+      work in progress_8: -1409089027
+      work in progress_7: 459940399
+      work in progress_10: 2139970346
+      work in progress_9: -1106163966
+      work in progress_3: -1613105167
+      work in progress_5: 1346487061
+      work in progress_6: -843712574
+      work in progress_2: -1216488206
+      work in progress_0: -1487935611
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
