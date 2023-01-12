@@ -11,6 +11,7 @@ public class PlayerAttack : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayer;
 
+
     // Update is called once per frame
     void Update()
     {
@@ -49,6 +50,7 @@ public class PlayerAttack : MonoBehaviour
         }
         //damage them 
         foreach(Collider2D enemy in hitEnemies){
+            enemy.GetComponent<Enemy>().Damaged(1);
             Debug.Log("hit");
         }
     }
