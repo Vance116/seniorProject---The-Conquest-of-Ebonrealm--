@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        openScript = GameObject.FindGameObjectWithTag("Door").GetComponent<Open>();
+        openScript = GameObject.FindGameObjectWithTag("DoorTag").GetComponent<Open>();
     }
 
     // called when damaged from the Player class
@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
     {
         currentHealth -= damage;
         if(currentHealth <= 0){
+            Debug.Log("Dying");
             openScript.Opening();
             GetComponent<Collider2D>().enabled = false;
             this.enabled = false;
