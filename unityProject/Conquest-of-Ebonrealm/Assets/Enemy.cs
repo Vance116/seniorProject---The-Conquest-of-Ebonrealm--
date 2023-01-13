@@ -6,11 +6,12 @@ public class Enemy : MonoBehaviour
 {
     public int maxHealth = 10;
     int currentHealth;
-
+    Open openScript;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        openScript = GameObject.FindGameObjectWithTag("Door").GetComponent<Open>();
     }
 
     // called when damaged from the Player class
@@ -19,7 +20,7 @@ public class Enemy : MonoBehaviour
     {
         currentHealth -= damage;
         if(currentHealth <= 0){
-            GetComponent<Open>().Opening();
+            openScript.Opening();
             GetComponent<Collider2D>().enabled = false;
             this.enabled = false;
             Object.Destroy(this.gameObject);
